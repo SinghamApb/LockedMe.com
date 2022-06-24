@@ -26,14 +26,13 @@ public class SearchUser {
 				isAvailable = true;
 				
 			}
-			
-			
-			if(isAvailable == false){
-				System.out.println("File not availabe ");
-			}
+
 			
 	
       	}
+	     if(isAvailable == false){
+			System.out.println("File not availabe ");
+		}
 	  }catch(Exception e) {
 		  
 		  System.out.println("Something went wronge try again");
